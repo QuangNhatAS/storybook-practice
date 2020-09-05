@@ -1,0 +1,36 @@
+.postCreate{
+  width: 60%;
+  height: 200px;
+  background-color: white;
+  border-radius: 20px;
+  margin-left: 50px;
+}
+.postCreate__title{
+  background-color: #F5F6F7;
+  padding: 10px;
+  border-radius: 20px 20px 0 0;
+  font-weight: 500;
+}
+.postCreate__input{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+}
+.postCreate__input > img{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.postCreate__input > input{
+  padding: 10px;
+  border: none;
+  flex: 1;
+  font-size: 24px;
+}
+.postCreate__footer{
+  display: flex;
+  padding: 10px 0;
+  
+}

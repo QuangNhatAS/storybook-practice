@@ -1,0 +1,14 @@
+.postCreateItem{
+  display: flex;
+  align-items: center;
+  background-color: #F5F6F7;
+  border-radius: 30px;
+  padding: 10px 30px;
+  margin-left: 20px;
+}
+.postCreateItem:hover{
+  background-color: #e4e4e4;
+}
+.postCreateItem > p{
+  margin-left: 5px;
+}

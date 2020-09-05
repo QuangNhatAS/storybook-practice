@@ -1,0 +1,30 @@
+.suggestItem{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 30px;
+}
+.suggestItem > a {
+  text-decoration: none;
+  color: #3587F4;
+}
+.suggestItem__info{
+  display: flex;
+  align-items: center;
+}
+.suggestItem__info > img{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.suggestItem__title{
+  margin-left: 10px;
+}
+.suggestItem__name{
+  font-weight: 500;
+}
+.suggestItem__default{
+  font-weight: 400;
+  opacity: .5;
+}
